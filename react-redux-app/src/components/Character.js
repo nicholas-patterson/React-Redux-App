@@ -2,11 +2,13 @@ import React from "react";
 
 const Character = props => {
   return (
-    <>
-      <img src={props.character.image} />
-      <h3>{props.character.name}</h3>
-      <p>{props.character.species}</p>
-    </>
+    <div>
+      <img src={props.character.image} alt={props.character.name} />
+      <h3>Name: {props.character.name}</h3>
+      <p>Species: {props.character.species}</p>
+      <p>Gender: {props.character.gender}</p>
+      <p>Status: {props.character.status}</p>
+    </div>
   );
 };
 
