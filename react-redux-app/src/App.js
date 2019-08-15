@@ -1,9 +1,10 @@
 import React from "react";
+import CharacterList from "./components/CharacterList";
 
 const App = () => {
   return (
     <>
-      <h1>Comps Here</h1>
+      <CharacterList />
     </>
   );
 };
