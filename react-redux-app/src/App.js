@@ -1,12 +1,9 @@
 import React from "react";
-import Input from "./components/Input";
-import WeatherDisplay from "./components/WeatherDisplay";
 
 const App = () => {
   return (
     <>
-      <Input />
-      <WeatherDisplay />
+      <h1>Comps Here</h1>
     </>
   );
 };
